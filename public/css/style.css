@@ -1,0 +1,52 @@
+body {
+    margin: 0%;
+    padding: 0%;
+
+}
+#logo{
+    color: rgb(136, 123, 123);
+    font-size: 60pt;
+    text-decoration: none;
+}
+#dot{
+    color:blue;
+    text-decoration:none;
+    font-size: 40pt;
+    font-family: 'open sans', sans-serif;
+    letter-spacing: -5px;
+}
+#dot {
+    color: black;
+    
+}
+
+#navlinks{
+     display: flex; 
+     list-style: none;
+     justify-content: center;
+     align-items: center;
+     gap: 30px
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: blue;
+ }
+    .navitems{
+        text-transform: none;
+    }
+    
+    #hero{
+        display: flex;
+    }
+    #herotext{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+     #heroimage{
+        height: 60px;
+     }
