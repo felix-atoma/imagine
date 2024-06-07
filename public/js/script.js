@@ -69,3 +69,61 @@ const bottle1 = {
    console.log('We did it!', i) 
   }
 
+  // functions
+// Defining a function
+function login(username, password) {
+  // Validate username and password
+  if (!username|| !password) {
+    return 'Username or password not provided';
+  }
+  // Verify username and password
+  if (username == "felix-atoma" && password == "1234") {
+    return "User is logged in";
+  } else {
+    return "Invalid username or password";
+  }
+}
+// Invoking a function
+login('felix-atoma');
+
+
+
+// Basic Arithmetic Operation 
+11 + 12;
+1+0.5;
+43-12;
+45/7;
+
+
+Math.floor(45/24);
+45%24;
+Math.random() * 100;
+Math.max(40,45,23);
+2* (3+4) - 5/2;
+Number('ty') + 2
+
+// Strings in JavaScript
+// Concatenation
+const firstname = 'felix';
+const lastname = 'Atoma';
+const middlename= '';
+firstname + ' ' + middlename + ' ' + lastname;
+// String Methods
+let fullName = "felix atoma"
+fullName.length
+fullName.toUpperCase()
+fullName.toLowerCase()
+fullName.charAt(8)
+fullName.slice(7,12)
+fullName.split("")
+fullName.replace("atoma", "Johnson")
+fullName.indexOf("lix")
+// string conversion
+Number("4.123")
+parseInt("4.123")
+parseFloat("4.123")
+ let amount = 12000
+ console.log('GHS${amount}')
+amount.toString()
+
+
