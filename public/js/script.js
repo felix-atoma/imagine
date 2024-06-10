@@ -125,5 +125,17 @@ parseFloat("4.123")
  let amount = 12000
  console.log('GHS${amount}')
 amount.toString()
+// Arrays in JavaScript
+const users = [
+  {
+  username: 'felix-atoma',
+  password: '1234',
+  email: 'felixatoma2@gmail.com'
+  },
+  {
+    username:'felixatoma2',
+    email: 'atomafelix2@gmail.com'
+  }
+]
 
 
