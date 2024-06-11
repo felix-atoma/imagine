@@ -12,9 +12,7 @@ let age = 73;
 let present = false;
 
 // Objects
-const person = {
-    username: 'felix-atoma',
-    age: 73,
+const person =  {
     present: false,
     child: {
         name: 'Gracia',
@@ -82,6 +80,34 @@ function login(username, password) {
   } else {
     return "Invalid username or password";
   }
+  // Array map
+const users = [
+  {firstname: 'Felix', lastname:'Atoma'},
+  {fistname: 'John', lastname: 'Ofusu'},
+  {fistname: 'Ismael', lastname: 'Awudu'},
+  {firstname: 'Ibrahim', lastname: 'Yakubu'},
+  {firstame:'Godwin', lastname: 'Akolbila'},
+  {firstname:'Michael', lastname:'Madu'},
+]
+users.map(fullName);
+// Square of numbers
+function square(number){
+  return number ** 2
+}
+square(5);
+const numbers = [4,15,20,19];
+numbers.map(square);
+
+
+// Array filter
+function isEven(number){
+  return number % 2===0;
+}
+isEven(8);
+numbers.filter(isEven);
+
+
+
 }
 // Invoking a function
 login('felix-atoma');
