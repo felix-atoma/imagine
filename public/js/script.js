@@ -162,6 +162,33 @@ const users = [
     username:'felixatoma2',
     email: 'atomafelix2@gmail.com'
   }
+
 ]
+//  Write a function that will allow a user to reset their password
+const user = {
+  email: "felixatoma2@gmail.com",
+  password: "1234",
+};
+
+function resetPassword(email, newPassword) {
+  // check if email and new password was provided
+  if (!email || !newPassword) {
+    return "Email or password not provided";
+  }
+  // check if provided email is correct
+  if (email === user.email) {
+    // update password with new one
+    user.password = newPassword;
+    return "password reset successful";
+  }
+  if (email !== user.email) {
+    return "Invalid email";
+  }
+}
+
+user;
+resetPassword("felixatoma2@gmail.com", "454545");
+user;
+
 
 
