@@ -189,6 +189,18 @@ function resetPassword(email, newPassword) {
 user;
 resetPassword("felixatoma2@gmail.com", "454545");
 user;
+// Classes in JavaScript
+class Laptop{
+  constructor(brand, color){
+    this.brand = brand;
+    this.color = color;
+  }
+}
+
+const laptop1 = new Laptop('Dell', 'black');
+const laptop2 = new Laptop('HP', 'silver');
+laptop1.brand;
+laptop2.brand;
 
 
 
